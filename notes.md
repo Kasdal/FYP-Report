@@ -17,11 +17,8 @@ list-of-figures: true
 # Plagiarism Statement
 I confirm that the work contained in this report is my own, except where due reference is made in the text to the work of others. I have acknowledged all material, data or ideas from other sources, whether quoted verbatim or paraphrased, by the use of suitable references and footnotes. I have also acknowledged any assistance received in preparing this report.
 
-# Declaration
-I confirm that this report has not been submitted for any other course and that I have not previously submitted work of a similar nature for this or any other course.
-
 # Acknowledgements
-I would like to thank my supervisor, Patrick Felicia for his guidance and support throughout this project. My team at Unum who helped me immensely during my internship.
+I would like to thank my supervisor, Patrick Felicia for his guidance and support throughout this project. My team at Unum who helped me immensely during my internship in executing the project and providing endless support and help.
 
 # Abstract
 
@@ -49,13 +46,16 @@ Utilizing tools such as git, Github, Jenkins, Docker, and AWS, a CI-CD pipeline 
 
 I have therefore made it a priority to learn about and understand the implementation of a CI-CD pipeline. I am confident that this approach has the potential to greatly benefit any organization and its users, and I am eager to see the positive impact it can have on the software development process. By embracing automation and adopting a CI-CD workflow, I believe it is possible to significantly enhance the speed and reliability of the development process, while also reducing costs and minimizing errors.
 
+
+
+
+
 ## Risk Assessment
 The risks associated with this project are as follows: 
 
-As I embark on this project, I am aware that there is a risk that I may not be able to deliver it as planned. This risk is especially relevant if I lack experience with the technologies and tools being used, as I may encounter difficulties or delays in implementing the desired functionality. Additionally, if the project is overly complex or involves a large number of features, it may be difficult for me to manage and could result in delays or an increased risk of project failure.
+As I embark on this project, I am aware that there is a risk that I may not be able to deliver it as planned. This risk is especially relevant due to my lack experience with the technologies and tools being used, as I may encounter difficulties or delays in implementing the desired functionality. Additionally, if the project is overly complex or involves a large number of features, it may be difficult for me to manage and could result in delays or cuting out features.
 
-I also need to consider the possibility that external factors such as third-party APIs or vendor support may not be reliable or may change unexpectedly, which could impact the project's timeline and success. Finally, if the project is underfunded or I do not have the necessary resources to complete it, there is a risk of delays or a reduction in scope.
-
+I also need to consider the possibility that external factors such as third-party APIs or vendor support may not be reliable or may change unexpectedly, which could impact the project's timeline and success.
 To increase the chances of delivering the project successfully, I will need to carefully assess and manage these risks. This may involve seeking additional resources or expertise, breaking the project down into smaller tasks, or implementing contingency plans. By proactively addressing these risks, I can increase the likelihood of delivering the project as planned.
 
 # Methodology

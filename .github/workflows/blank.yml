@@ -8,12 +8,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
-      - run: mkdir output
-      - run: pandoc notes.md -o FYP-Report.pdf --from markdown --template eisvogel --table-of-contents --highlight-style my_style.theme -V fontsize=10pt 
       - uses: maxheld83/pandoc@v2
         with:
-          args: "--standalone --output=output/index.html input.txt"
-      - uses: actions/upload-artifact@master
-        with:
-          name: output
-          path: output
+          args: pandoc notes.md -o FYP-Report.pdf --from markdown --template eisvogel --table-of-contents --highlight-style my_style.theme -V fontsize=10pt 

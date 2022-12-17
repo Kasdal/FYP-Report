@@ -34,11 +34,11 @@ The intended audience for this project is software developers and devops profess
 Overall, the goal of this CI-CD project is to make the software development process more efficient, reliable, and scalable, enabling teams to deliver high-quality software updates to their users more quickly and with fewer errors.
 
 ## Rationale for the Project
-As a software developer and Dev-Ops enthusiast, I have long recognized the importance of automation in streamlining the development process and reducing costs. When I was introduced to CI-CD during my internship, I was immediately struck by the potential of this approach to transform the way we build, test, and deploy code changes.
+As a software developer and Dev-Ops enthusiast, I am well aware of the benefits of automating processes in order to optimize the development process and decrease expenses. When I was first introduced to continuous integration and continuous deployment (CI-CD) during my internship, I was immediately drawn to the potential this methodology had to revolutionize how code modifications are created, tested, and deployed.
 
-Through the use of tools such as git, Github, Jenkins, Docker, and AWS, a CI-CD pipeline can automate the process of building, testing, and deploying code changes, reducing the time and effort required to bring new features and updates to production. This not only improves the efficiency of the development process, but also helps to ensure the reliability and quality of the final product.
+Utilizing tools such as git, Github, Jenkins, Docker, and AWS, a CI-CD pipeline can automate the steps of building, testing, and deploying code changes, decreasing the time and effort needed to bring new features and updates to production. This not only increases the efficiency of the development process, but also helps to guarantee the reliability and quality of the final product.
 
-I have therefore made it a priority to advocate for the implementation of a CI-CD pipeline at my current organization. I am confident that this approach will greatly benefit our team and our users, and I am excited to see the positive impact it can have on our development process. By embracing automation and adopting a CI-CD workflow, I believe we can significantly improve the speed and reliability of our software development process, while also reducing costs and minimizing errors.
+I have therefore made it a priority to learn about and understand the implementation of a CI-CD pipeline. I am confident that this approach has the potential to greatly benefit any organization and its users, and I am eager to see the positive impact it can have on the software development process. By embracing automation and adopting a CI-CD workflow, I believe it is possible to significantly enhance the speed and reliability of the development process, while also reducing costs and minimizing errors.
 
 ## Goals and Requirements
 

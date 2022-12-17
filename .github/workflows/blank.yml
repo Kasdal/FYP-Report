@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: mkdir output
-      - run: echo "foo" > input.txt
+      - run: pandoc notes.md -o FYP-Report.pdf --from markdown --template eisvogel --table-of-contents --highlight-style my_style.theme -V fontsize=10pt 
       - uses: maxheld83/pandoc@v2
         with:
           args: "--standalone --output=output/index.html input.txt"

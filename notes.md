@@ -46,10 +46,6 @@ Utilizing tools such as git, Github, Jenkins, Docker, and AWS, a CI-CD pipeline 
 
 I have therefore made it a priority to learn about and understand the implementation of a CI-CD pipeline. I am confident that this approach has the potential to greatly benefit any organization and its users, and I am eager to see the positive impact it can have on the software development process. By embracing automation and adopting a CI-CD workflow, I believe it is possible to significantly enhance the speed and reliability of the development process, while also reducing costs and minimizing errors.
 
-
-
-
-
 ## Risk Assessment
 The risks associated with this project are as follows: 
 
@@ -59,7 +55,29 @@ I also need to consider the possibility that external factors such as third-part
 To increase the chances of delivering the project successfully, I will need to carefully assess and manage these risks. This may involve seeking additional resources or expertise, breaking the project down into smaller tasks, or implementing contingency plans. By proactively addressing these risks, I can increase the likelihood of delivering the project as planned.
 
 # Methodology
+Waterfall is a traditional linear method of software development that involves completing each phase of the development process before moving on to the next, while CICD involves continuously integrating and deploying code changes. 
 
+## Traditional Waterfall vs Continuous Integration and Continuous Deployment
+### Introduction:
+Waterfall and CICD (Continuous Integration and Continuous Deployment) are two different development methodologies that are used to build software. While Waterfall is a traditional method that follows a linear, sequential process, CICD is a more modern approach that emphasizes rapid iteration and continuous delivery of software updates. In this article, we will compare the two approaches in terms of cost savings, speed, and workload.
+
+### Cost Savings:
+One potential advantage of the Waterfall model is that it may be less expensive to implement, as it does not require the same level of infrastructure and automation as CICD. Waterfall also typically involves fewer resources, as teams do not need to constantly monitor and deploy code changes. However, the Waterfall model can be inflexible and may not be well-suited to projects with rapidly changing requirements or a high degree of uncertainty. As a result, teams may need to go back and redo work that has already been completed, leading to additional costs and delays.
+
+On the other hand, CICD can offer significant cost savings by reducing the need for manual testing and deployment processes. By continuously integrating and deploying code changes, teams can quickly and easily make updates to their software and respond to changing business needs. This can also lead to reduced maintenance costs, as teams can more easily fix defects and make updates to the software as needed. However, CICD does require a significant investment in infrastructure and automation, as well as a well-defined process for testing and deploying code changes.
+
+### Speed:
+The Waterfall model is typically slower than CICD, as each phase of the software development life cycle (SDLC) must be completed before moving on to the next phase. This can lead to delays and missed deadlines, particularly if there are issues or changes that require going back and redoing work that has already been completed.
+
+In contrast, CICD allows for rapid iteration and continuous delivery of software updates, allowing teams to quickly respond to changing business needs or customer feedback. This can lead to faster time-to-market and the ability to deliver new features and functionality more quickly. However, it is important to ensure that code changes are thoroughly tested and do not break existing functionality, as this can lead to delays and additional work.
+
+### Workload:
+The Waterfall model may require less workload upfront, as teams do not need to continuously integrate and deploy code changes. However, the inflexibility of the Waterfall model can lead to additional workload if changes or defects need to be addressed once a phase has been completed.
+
+CICD, on the other hand, requires a more continuous workload, as teams must continuously integrate and deploy code changes. This can lead to a more complex and challenging workload, as teams must ensure that code changes do not break existing functionality and that the software is stable and reliable. However, the ability to rapidly iterate and respond to changing business needs can also lead to a more dynamic and engaging work environment.
+
+### Conclusion:
+Both Waterfall and CICD have their own benefits and limitations, and the appropriate approach will depend on the specific needs and constraints of a project. Waterfall may be more suitable for projects with well-defined requirements and a low level of uncertainty, while CICD may be more appropriate for projects with rapidly changing requirements or a need for rapid iteration and innovation. Ultimately, the choice between the two approaches will depend on the specific cost, speed, and workload considerations of the project, as well as the resources and capabilities of the development team.
 
 ## Development cycle
 
@@ -99,12 +117,11 @@ AWS (Amazon Web Services): AWS is a cloud computing platform that provides a wid
 Kubernetes: Kubernetes is an open-source container orchestration platform that allows developers to manage and deploy containerized applications at scale. It provides features such as automatic scheduling, self-healing, and horizontal scaling, which make it easier for developers to deploy and manage applications in a production environment.
 
 ### Terraform
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It is an open-source tool that allows users to define infrastructure as code (IaC) and manage it using a command-line interface. With Terraform, users can create, update, and version infrastructure resources such as virtual machines, networking components, and storage solutions across multiple cloud providers (such as AWS, GCP, and Azure) and on-premises data centers.
 
+Using Terraform, users can define infrastructure resources in a configuration file written in the HashiCorp Configuration Language (HCL). This configuration file is used to create and manage resources in a consistent, repeatable way. Users can use Terraform to create, update, and delete resources in a predictable manner, making it easier to manage infrastructure changes and roll back updates if necessary.
 
-
-
-
-### AWS
+Terraform also includes features such as dependency management, which allows users to specify the order in which resources are created, and resource tracking, which allows users to keep track of resources that have been created and modified. Overall, Terraform is a powerful tool for managing infrastructure in a consistent and repeatable way, making it easier for organizations to build and maintain infrastructure on a variety of cloud and on-premises platforms.
 
 
 

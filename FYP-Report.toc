@@ -1,0 +1,34 @@
+\contentsline {section}{\nonumberline Plagiarism Statement}{2}{section*.3}%
+\contentsline {section}{\nonumberline Acknowledgements}{2}{section*.5}%
+\contentsline {section}{\nonumberline Abstract}{2}{section*.7}%
+\contentsline {section}{\nonumberline Introduction}{2}{section*.9}%
+\contentsline {subsection}{\nonumberline Purpose, Intended Use and Audience}{3}{subsection*.11}%
+\contentsline {subsection}{\nonumberline Rationale for the Project}{3}{subsection*.13}%
+\contentsline {subsection}{\nonumberline Risk Assessment}{3}{subsection*.15}%
+\contentsline {section}{\nonumberline Methodology}{4}{section*.17}%
+\contentsline {subsection}{\nonumberline Introduction:}{4}{subsection*.19}%
+\contentsline {subsection}{\nonumberline Cost Savings:}{4}{subsection*.21}%
+\contentsline {subsection}{\nonumberline Speed:}{4}{subsection*.23}%
+\contentsline {subsection}{\nonumberline Workload:}{5}{subsection*.25}%
+\contentsline {subsubsection}{\nonumberline Conclusion:}{5}{subsubsection*.27}%
+\contentsline {section}{\nonumberline Project Development cycle}{5}{section*.29}%
+\contentsline {subsection}{\nonumberline Project Design Objectives}{6}{subsection*.31}%
+\contentsline {subsection}{\nonumberline Automated Tests}{6}{subsection*.33}%
+\contentsline {subsection}{\nonumberline Technologies Used}{6}{subsection*.35}%
+\contentsline {subsubsection}{\nonumberline Git}{6}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Github}{7}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline Github Actions}{7}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline Jenkins}{7}{subsubsection*.43}%
+\contentsline {subsubsection}{\nonumberline Docker}{7}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline AWS}{7}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Kubernetes}{8}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline Terraform}{8}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Ansible}{8}{subsubsection*.53}%
+\contentsline {section}{\nonumberline Other Tools used}{9}{section*.55}%
+\contentsline {subsection}{\nonumberline Pandoc:}{9}{subsection*.57}%
+\contentsline {subsection}{\nonumberline LaTeX:}{9}{subsection*.59}%
+\contentsline {section}{\nonumberline Discussion}{9}{section*.61}%
+\contentsline {subsection}{\nonumberline Limitations}{9}{subsection*.63}%
+\contentsline {section}{\nonumberline Conclusion}{9}{section*.65}%
+\contentsline {section}{\nonumberline References}{9}{section*.67}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

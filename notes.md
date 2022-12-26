@@ -57,21 +57,20 @@ To increase the chances of delivering the project successfully, I will need to c
 # Methodology
 Waterfall is a traditional linear method of software development that involves completing each phase of the development process before moving on to the next, while CICD involves continuously integrating and deploying code changes. 
 
-## Traditional Waterfall vs Continuous Integration and Continuous Deployment
-### Introduction:
+## Introduction:
 Waterfall and CICD (Continuous Integration and Continuous Deployment) are two different development methodologies that are used to build software. While Waterfall is a traditional method that follows a linear, sequential process, CICD is a more modern approach that emphasizes rapid iteration and continuous delivery of software updates. In this article, we will compare the two approaches in terms of cost savings, speed, and workload.
 
-### Cost Savings:
+## Cost Savings:
 One potential advantage of the Waterfall model is that it may be less expensive to implement, as it does not require the same level of infrastructure and automation as CICD. Waterfall also typically involves fewer resources, as teams do not need to constantly monitor and deploy code changes. However, the Waterfall model can be inflexible and may not be well-suited to projects with rapidly changing requirements or a high degree of uncertainty. As a result, teams may need to go back and redo work that has already been completed, leading to additional costs and delays.
 
 On the other hand, CICD can offer significant cost savings by reducing the need for manual testing and deployment processes. By continuously integrating and deploying code changes, teams can quickly and easily make updates to their software and respond to changing business needs. This can also lead to reduced maintenance costs, as teams can more easily fix defects and make updates to the software as needed. However, CICD does require a significant investment in infrastructure and automation, as well as a well-defined process for testing and deploying code changes.
 
-### Speed:
+## Speed:
 The Waterfall model is typically slower than CICD, as each phase of the software development life cycle (SDLC) must be completed before moving on to the next phase. This can lead to delays and missed deadlines, particularly if there are issues or changes that require going back and redoing work that has already been completed.
 
 In contrast, CICD allows for rapid iteration and continuous delivery of software updates, allowing teams to quickly respond to changing business needs or customer feedback. This can lead to faster time-to-market and the ability to deliver new features and functionality more quickly. However, it is important to ensure that code changes are thoroughly tested and do not break existing functionality, as this can lead to delays and additional work.
 
-### Workload:
+## Workload:
 The Waterfall model may require less workload upfront, as teams do not need to continuously integrate and deploy code changes. However, the inflexibility of the Waterfall model can lead to additional workload if changes or defects need to be addressed once a phase has been completed.
 
 CICD, on the other hand, requires a more continuous workload, as teams must continuously integrate and deploy code changes. This can lead to a more complex and challenging workload, as teams must ensure that code changes do not break existing functionality and that the software is stable and reliable. However, the ability to rapidly iterate and respond to changing business needs can also lead to a more dynamic and engaging work environment.
@@ -86,7 +85,7 @@ In order to achieve these goals, I am leveraging a range of tools and techniques
 
 Furthermore, I am adopting a DevOps mindset, which emphasizes collaboration and integration between development and operations teams. This allows me to optimize my workflow and continuously deliver value to stakeholders by automating and streamlining the build, test, and deployment process. By leveraging the full capabilities of these tools, I am able to deliver high-quality, reliable software that meets the needs of stakeholders and users.
 
-### Project Design Objectives
+## Project Design Objectives
 In this project, I am separating the flow and design into two distinct sections: automation of infrastructure and configuration automation.
 
 For the automation of infrastructure, I am using tools such as Terraform to define and provision my infrastructure resources in a predictable, version-controlled, and automated manner. These tools allow me to use code to define and manage my infrastructure resources, such as servers, networks, and storage, in a repeatable and consistent manner. By using these tools, I can leverage the benefits of automation and version control to manage my infrastructure resources in a more efficient and reliable way.
@@ -141,7 +140,15 @@ In this project, we are also using Ansible to automate tool configuration and in
 
 In our project, we are using Ansible to automate the configuration and installation of the application on remote devices. This allows us to easily and consistently deploy the application to multiple devices without the need to manually perform the configuration and installation process on each device. Using Ansible helps us to save time and reduce the risk of errors by automating these tasks. It also allows us to easily update and manage the configuration of the application on the remote devices.
 
-# Results
+# Other Tools used
+
+## Pandoc:
+
+Pandoc is a tool that I am using in this project to help me convert files from one format to another. It allows me to easily convert files between different markup languages, such as Markdown, HTML, and LaTeX. This is particularly useful for me because it allows me to preserve the formatting and layout of my documents, even when I need to convert them to a different format.
+
+## LaTeX:
+
+LaTeX is a typesetting system that I am using in this project to help me create high-quality documents with a consistent layout and formatting. It is particularly useful for documents that contain a lot of mathematical notation or other complex formatting. By using LaTeX, I can ensure that my documents look professional and are easy to read, even when they contain complex formatting.
 
 
 # Discussion
@@ -151,7 +158,7 @@ In our project, we are using Ansible to automate the configuration and installat
 # Conclusion
 
 
-# Bibliography
-example:
+# References
+
 - Oakland, J. (1987). The Economics of Non-excludability. The Journal of
   Economic Perspectives, 1(1), 19-32. doi:10.1257/jep.1.1.19

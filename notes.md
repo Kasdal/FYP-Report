@@ -79,17 +79,28 @@ CICD, on the other hand, requires a more continuous workload, as teams must cont
 ### Conclusion:
 Both Waterfall and CICD have their own benefits and limitations, and the appropriate approach will depend on the specific needs and constraints of a project. Waterfall may be more suitable for projects with well-defined requirements and a low level of uncertainty, while CICD may be more appropriate for projects with rapidly changing requirements or a need for rapid iteration and innovation. Ultimately, the choice between the two approaches will depend on the specific cost, speed, and workload considerations of the project, as well as the resources and capabilities of the development team.
 
-## Development cycle
+# Project Development cycle
+I am developing this project with a focus on Agile principles, which prioritize flexibility and adaptability in the development process. By embracing an Agile approach, I aim to deliver value to stakeholders in a timely and efficient manner, while also allowing for rapid iteration and adaptation to changing requirements.
 
-### Planning
+In order to achieve these goals, I am leveraging a range of tools and techniques to automate and streamline my development process. These tools include Docker, Jenkins, and Ansible, which allow me to easily package, deploy, and manage my application across multiple environments. By using these tools, I can ensure that my application is reusable, scalable, and maintainable, and that I can easily and consistently deliver updates and improvements to stakeholders.
 
-### An Agile Approach with Kanban
+Furthermore, I am adopting a DevOps mindset, which emphasizes collaboration and integration between development and operations teams. This allows me to optimize my workflow and continuously deliver value to stakeholders by automating and streamlining the build, test, and deployment process. By leveraging the full capabilities of these tools, I am able to deliver high-quality, reliable software that meets the needs of stakeholders and users.
 
-### Test-Driven-Development
+### Project Design Objectives
+In this project, I am separating the flow and design into two distinct sections: automation of infrastructure and configuration automation.
 
+For the automation of infrastructure, I am using tools such as Terraform to define and provision my infrastructure resources in a predictable, version-controlled, and automated manner. These tools allow me to use code to define and manage my infrastructure resources, such as servers, networks, and storage, in a repeatable and consistent manner. By using these tools, I can leverage the benefits of automation and version control to manage my infrastructure resources in a more efficient and reliable way.
 
+For configuration automation, I am using tools such as Ansible to automate the configuration of my resources, such as applications, services, and environments. These tools allow me to define and enforce configuration standards, install and configure software, and manage users and permissions in an automated manner. By using these tools, I can reduce the risk of errors and improve the efficiency of my workflow, while also ensuring that my resources are consistently configured according to my desired standards.
 
-### Continuous Integration/Development
+## Automated Tests
+
+As part of my development process, I am using Jenkins to automate the execution of my tests. Jenkins is an open-source automation server that helps developers automate parts of the development process, such as building, testing, and deploying code changes. It allows me to set up a series of tasks, known as "jobs," that can be automatically triggered based on certain events or conditions.
+
+In my project, I am using Jenkins to automatically run my tests whenever I commit code changes to my repository. This allows me to quickly and easily validate that my code is working as intended, and identify and fix any issues early on in the development process. By automating my tests, I can save time and reduce the risk of errors, ensuring that my code is of high quality and meets my desired standards.
+
+However, it is important to note that while the use of Jenkins to automate my tests is a useful aspect of my development process, it is not the primary focus of my project. There may be other goals and objectives that are more central to my project, such as developing new features or improving the performance of the application. Nonetheless, the use of Jenkins to automate my tests helps me to ensure that my code is of high quality and meets my desired standards, which is an important factor in achieving my overall project goals.
+
 
 ## Technologies Used
 
@@ -124,7 +135,11 @@ Using Terraform, users can define infrastructure resources in a configuration fi
 
 Terraform also includes features such as dependency management, which allows users to specify the order in which resources are created, and resource tracking, which allows users to keep track of resources that have been created and modified. Overall, Terraform is a powerful tool for managing infrastructure in a consistent and repeatable way, making it easier for organizations to build and maintain infrastructure on a variety of cloud and on-premises platforms.
 
+### Ansible
 
+In this project, we are also using Ansible to automate tool configuration and installation on remote devices. Ansible is a configuration management and automation tool that allows developers to easily provision, configure, and manage remote infrastructure. It works by using simple, human-readable configuration files called "playbooks" to define the desired state of the infrastructure and the tasks needed to achieve it.
+
+In our project, we are using Ansible to automate the configuration and installation of the application on remote devices. This allows us to easily and consistently deploy the application to multiple devices without the need to manually perform the configuration and installation process on each device. Using Ansible helps us to save time and reduce the risk of errors by automating these tasks. It also allows us to easily update and manage the configuration of the application on the remote devices.
 
 # Results
 

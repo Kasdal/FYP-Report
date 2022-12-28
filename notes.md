@@ -22,9 +22,7 @@ I would like to thank my supervisor, Patrick Felicia for his guidance and suppor
 
 # Abstract
 
-The purpose of this project is to streamline the software development process through the use of a CI-CD workflow that automates the steps of building, testing, and deploying code changes. This is achieved through the utilization of git for version control, Github for code repository management, Jenkins for continuous integration, Docker for packaging code into containers, and AWS for deployment.
-
-By implementing this workflow, developers can make code changes and have them automatically built, tested, and deployed, reducing the time and effort required to bring new features and updates to production. This enables teams to deliver software updates faster and with fewer errors, improving the overall efficiency and quality of the software development process.
+In this project, I will be using automation tools and technologies to streamline the process of creating software. I will create a working prototype that showcases the capabilities of these tools in a real-world context, and will identify best practices for using these tools in software development projects. I will also identify any potential challenges or limitations in using these tools, and will develop strategies to overcome these challenges. Through this project, I hope to demonstrate the capabilities and benefits of automation tools and technologies in software development, and to create guidance and resources to help other developers adopt these tools in their own projects.
 
 
 # Introduction
@@ -75,8 +73,10 @@ The Waterfall model may require less workload upfront, as teams do not need to c
 
 CICD, on the other hand, requires a more continuous workload, as teams must continuously integrate and deploy code changes. This can lead to a more complex and challenging workload, as teams must ensure that code changes do not break existing functionality and that the software is stable and reliable. However, the ability to rapidly iterate and respond to changing business needs can also lead to a more dynamic and engaging work environment.
 
-### Conclusion:
+## Conclusion:
 Both Waterfall and CICD have their own benefits and limitations, and the appropriate approach will depend on the specific needs and constraints of a project. Waterfall may be more suitable for projects with well-defined requirements and a low level of uncertainty, while CICD may be more appropriate for projects with rapidly changing requirements or a need for rapid iteration and innovation. Ultimately, the choice between the two approaches will depend on the specific cost, speed, and workload considerations of the project, as well as the resources and capabilities of the development team.
+
+![CICD Flow](cicd.png)
 
 # Project Development cycle
 I am developing this project with a focus on Agile principles, which prioritize flexibility and adaptability in the development process. By embracing an Agile approach, I aim to deliver value to stakeholders in a timely and efficient manner, while also allowing for rapid iteration and adaptation to changing requirements.
@@ -100,44 +100,66 @@ In my project, I am using Jenkins to automatically run my tests whenever I commi
 
 However, it is important to note that while the use of Jenkins to automate my tests is a useful aspect of my development process, it is not the primary focus of my project. There may be other goals and objectives that are more central to my project, such as developing new features or improving the performance of the application. Nonetheless, the use of Jenkins to automate my tests helps me to ensure that my code is of high quality and meets my desired standards, which is an important factor in achieving my overall project goals.
 
+# Technologies Used
 
-## Technologies Used
-
-### Git
+## Git
 Git: Git is a version control system that allows developers to track changes to their codebase and collaborate with other team members. It allows developers to save different versions of their code and switch between them as needed, making it easier to track and manage changes. Git also allows developers to work on the same codebase at the same time, without having to worry about overwriting each other’s work. This enables teams to work more efficiently and effectively, and helps to ensure that code changes are thoroughly tested and deployed in a timely manner.
 
-### Github
-For this project, I will be using GitHub to store the codebase and track changes through automatic versioning. GitHub is a web-based platform that allows developers to host and review code, manage projects, and build software. It is built on top of Git, a version control system that enables developers to track changes to their code. By using GitHub, I can easily keep track of the history of my work and make sure that my code is organized and properly versioned. When changes are made to the codebase on GitHub, Jenkins will be notified automatically through Git, allowing me to streamline my workflow and stay up to date on the status of the project. 
+### Project Use:
+In this project, Git will be used to manage and track changes to the codebase as the project progresses.
 
-### Github Actions
+## Github
+GitHub is a web-based platform that allows developers to host and review code, manage projects, and build software. It is built on top of Git, a version control system that enables developers to track changes to their code. By using GitHub, I can easily keep track of the history of my work and make sure that my code is organized and properly versioned. When changes are made to the codebase on GitHub, Jenkins will be notified automatically through Git, allowing me to streamline my workflow and stay up to date on the status of the project.
+
+### Project Use:
+For this project, GitHub will be used to store the codebase and track changes through automatic versioning. It will also serve as a trigger point for the rest of the pipeline, allowing changes to the codebase to initiate the various tasks and activities in the development process.
+
+## Github Actions
 GitHub Actions is a tool that allows developers to automate their workflow by setting up a series of tasks, known as "actions," that can be triggered based on certain events or conditions. These actions can be used to build, test, and deploy code changes, as well as perform other tasks such as releasing software and publishing documentation. I am using GitHub Actions to automate the compilation of my Final Year Project pdf upon commit to GitHub. This allows me to easily and quickly generate a compiled version of my project every time I commit code changes, without having to manually perform the compilation process.
 
-### Jenkins
+## Jenkins
 Jenkins is an open-source automation server that helps developers automate parts of the development process, such as building, testing, and deploying code changes. It allows developers to set up a series of tasks, known as "jobs," that can be automatically triggered based on certain events or conditions. For this project, Jenkins will be used to create a Docker image and upload it to Docker Hub once it detects changes on GitHub. This allows the project to be easily packaged and deployed in a containerized environment, making it easier to manage and scale. Jenkins is a powerful tool for automating development workflows and can be used in conjunction with other tools, such as GitHub Actions, to create a complete CI/CD pipeline.
 
-### Docker
+### Project Use:
+In this project, Jenkins will be used to automate the building, testing, and deployment of code changes to different environments. It will be triggered by changes to the codebase on GitHub, and will execute a series of tasks to build, test, and deploy the code. One of the environments that Jenkins will be used to deploy to is AWS EKS (Elastic Kubernetes Service), a fully managed Kubernetes service that makes it easy to deploy and run containerized applications.
+
+## Docker
 In this project, we are using Docker to containerize the application. Docker is a tool that makes it easier to create, deploy, and run applications in a containerized environment. A container is a lightweight, standalone, and executable package that includes everything an application needs to run, including code, libraries, dependencies, and runtime. By using Docker, we can easily package and deploy the application in a consistent manner across different environments. This allows us to manage and scale the application more easily, as well as ensure that it runs consistently regardless of the underlying infrastructure.
 Widely used saying: "It works on my machine" is no longer valid. Docker allows us to create a consistent environment for the application, so that it will run the same way on any machine.
 
-### AWS
+### Project Use:
+In this project, we are using Docker to containerize the application. 
+
+## AWS
 
 AWS (Amazon Web Services): AWS is a cloud computing platform that provides a wide range of services, including computing, storage, and database management. It allows developers to build, test, and deploy applications at scale, without having to worry about the underlying infrastructure. AWS also offers a number of tools and services specifically designed for continuous integration and continuous deployment (CI-CD), such as CodePipeline and CodeBuild.
 
-### Kubernetes
+### Project Use:
+In this project, AWS will be used to host a variety of servers and services like Elastic Kubernetes Service (EKS). AWS will also be used to host other servers and services as needed, such as Jenkins, and maybe Nexus. Overall, AWS will be a key tool for hosting and deploying the various servers and services needed to support this project.
+
+## Kubernetes
 
 Kubernetes: Kubernetes is an open-source container orchestration platform that allows developers to manage and deploy containerized applications at scale. It provides features such as automatic scheduling, self-healing, and horizontal scaling, which make it easier for developers to deploy and manage applications in a production environment.
 
-### Terraform
+### Project Use:
+
+In this project, Kubernetes will be used to manage and deploy the containerized application. It will be responsible for scheduling and deploying the containers, as well as managing their lifecycle and ensuring that they are running in a healthy state. Kubernetes will be a key tool for ensuring the reliability and scalability of the application in this project.
+
+## Terraform
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It is an open-source tool that allows users to define infrastructure as code (IaC) and manage it using a command-line interface. With Terraform, users can create, update, and version infrastructure resources such as virtual machines, networking components, and storage solutions across multiple cloud providers (such as AWS, GCP, and Azure) and on-premises data centers.
 
 Using Terraform, users can define infrastructure resources in a configuration file written in the HashiCorp Configuration Language (HCL). This configuration file is used to create and manage resources in a consistent, repeatable way. Users can use Terraform to create, update, and delete resources in a predictable manner, making it easier to manage infrastructure changes and roll back updates if necessary.
 
 Terraform also includes features such as dependency management, which allows users to specify the order in which resources are created, and resource tracking, which allows users to keep track of resources that have been created and modified. Overall, Terraform is a powerful tool for managing infrastructure in a consistent and repeatable way, making it easier for organizations to build and maintain infrastructure on a variety of cloud and on-premises platforms.
 
-### Ansible
+### Project Use:
+In this project, Terraform will automate resource deployment across cloud providers, including AWS. It will define and manage the infrastructure, including servers, databases, and networking resources. Terraform will streamline resource deployment and management for the project.
+
+## Ansible
 
 In this project, we are also using Ansible to automate tool configuration and installation on remote devices. Ansible is a configuration management and automation tool that allows developers to easily provision, configure, and manage remote infrastructure. It works by using simple, human-readable configuration files called "playbooks" to define the desired state of the infrastructure and the tasks needed to achieve it.
 
+### Project Use:
 In our project, we are using Ansible to automate the configuration and installation of the application on remote devices. This allows us to easily and consistently deploy the application to multiple devices without the need to manually perform the configuration and installation process on each device. Using Ansible helps us to save time and reduce the risk of errors by automating these tasks. It also allows us to easily update and manage the configuration of the application on the remote devices.
 
 # Other Tools used
@@ -150,12 +172,33 @@ Pandoc is a tool that I am using in this project to help me convert files from o
 
 LaTeX is a typesetting system that I am using in this project to help me create high-quality documents with a consistent layout and formatting. It is particularly useful for documents that contain a lot of mathematical notation or other complex formatting. By using LaTeX, I can ensure that my documents look professional and are easy to read, even when they contain complex formatting.
 
+## Mermaid Diagrams:
+A mermaid diagram, also known as a flow diagram, is a tool that visualizes the flow of data or steps within a system. 
 
-# Discussion
+# Expected Outcomes:
 
-## Limitations
+The primary goal of this project is to demonstrate the capabilities of modern automation tools and technologies, and to show how these tools can be used to streamline the development process and improve the efficiency and effectiveness of software development projects. To achieve this goal, the project will leverage a variety of automation tools and technologies, including Git and GitHub, Jenkins, Kubernetes, and Terraform, among others.
+
+The expected outcomes of this project will include:
+
+- The successful demonstration of the capabilities of automation tools and technologies in streamlining the development process and improving the efficiency and effectiveness of software development projects.
+- The creation of a working prototype that showcases the capabilities of these tools and technologies in a real-world context.
+- The identification of best practices for using automation tools and technologies in software development projects, and the creation of guidance and resources to help other developers adopt these tools in their own projects.
+- The identification of any potential challenges or limitations in using automation tools and technologies, and the development of strategies to overcome these challenges.
+- The identification of potential future developments or improvements for the project, including the exploration of new tools and technologies as they become available, and the integration of existing tools and technologies in new and innovative ways.
+Overall, the expected outcomes of this project will be to provide a clear and compelling demonstration of the capabilities and benefits of automation tools and technologies in software development, and to provide guidance and resources to help other developers adopt these tools in their own projects.
+
+
 
 # Conclusion
+
+In this project, I am utilizing a variety of automation tools and technologies to optimize the development workflow and ensure the timely and high-quality delivery of the project. These tools include version control systems, build and test automation tools, deployment automation tools, and infrastructure management tools. These tools will be integrated into the overall workflow to automate various stages of the development process, such as version control, building and testing, deployment, and infrastructure management.
+
+This project is part of a larger initiative to demonstrate the capabilities of modern automation tools and technologies. Its primary goal is to showcase how these tools can be used to streamline the development process and improve the efficiency and effectiveness of software development projects. To achieve this goal, I will be using a variety of technologies and tools, including Git and GitHub, Jenkins, Kubernetes, and Terraform, among others.
+
+One of the main challenges being addressed in this project is the need to deploy and manage applications in a consistent and reliable manner across a range of different environments. To overcome this challenge, I am leveraging the automation capabilities of these tools to automate the deployment and management of the application and its dependencies. This will help to ensure that the application can be deployed and run smoothly in a variety of different environments, including on-premises, in the cloud, or in a hybrid environment.
+
+Looking ahead, I plan to continue refining and improving the automation tools and technologies being used in this project. This will involve exploring new tools and technologies as they become available, as well as integrating existing tools and technologies in new and innovative ways. By staying at the forefront of automation technology, I hope to continue to drive the development of more efficient and effective software development processes, and to help organizations around the world realize the full potential of automation in their own projects.
 
 
 # References

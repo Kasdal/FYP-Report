@@ -1,22 +1,32 @@
 ```mermaid
 graph TD;
-    subgraph Development
-        A[Commit code changes] --> B[Automate tests using Jenkins]
-        B --> C[Build and test code using Jenkins]
-        C --> D[Deploy code to staging environment using Jenkins]
-    end
-    subgraph Staging
-        D --> E[Test and validate code in staging environment]
-        E --> F[Promote code to production environment]
-    end
-    subgraph Production
-        F --> G[Monitor and maintain code in production environment]
-    end
+    A[GitHub] --> B[Jenkins]
+    B --> C[AWS]
+        C --> E[EKS]
+    B --> D[Docker]
+        D --> F[Docker image]
+        F --> E
+    B --> G[Terraform]
+        G --> H[Create network]
+        G --> I[Security Group]
+        G --> J[EKS]
+        J --> E
+    B --> K[Ansible]
+    E --> L[App]
+    L --> M[Internet]
+    
     style A fill:#e74c3c
     style B fill:#3498db
-    style C fill:#f1c40f
-    style D fill:#9b59b6
+    style C fill:#9b59b6
+    style D fill:#34495e
     style E fill:#2ecc71
-    style F fill:#34495e
-    style G fill:#e67e22
+    style G fill:#34495e
+    style K fill:#a2a2a2
+    style H fill:#34495e
+    style I fill:#34495e
+    style J fill:#34495e
+    style F fill:#9b59b6
+    style L fill:#9b59b6
+    style M fill:#2ecc71
+
 ```

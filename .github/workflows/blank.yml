@@ -30,7 +30,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         
         with:
-          root_file: FYP-Report.tex
+          root_file: main.tex
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
